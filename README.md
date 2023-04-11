@@ -43,85 +43,10 @@ Por ejemplo, una entidad del cliente generalmente se describe con un número de 
 
 Estos nos garantiza que una instancia tiene un identificador único
 
-## Atributos multivalor
-
-Debido a que una entidad en una base de datos relacional no puede tener atributos multivalores, debe manejar esos atributos creando una entidad para mantenerlos.
-
 ##
 
-Como regla general, si se encuentra con un atributo multivalor, esta es una pista importante de que necesita otra entidad. La única forma de manejar múltiples valores del mismo atributo es crear una entidad de la cual pueda almacenar múltiples instancias, una para cada valor del atributo
-
-Debido a que una entidad en una base de datos relacional no puede tener atributos multivalor,debe manejar esos atributos creando una entidad para manejarlos
-
-#### Code Blocks (Indented style)
-
-Indented 4 spaces, like `<pre>` (Preformatted Text).
-
 ```
-<?php
-    echo "Hello world!";
-?>
 ```
-
-Code Blocks (Preformatted text):
-
-```
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-```
-
-#### Javascript　
-
-```javascript
-function test(){
-    console.log("Hello world!");
-}
- 
-(function(){
-    var box = function(){
-        return box.fn.init();
-    };
-
-    box.prototype = box.fn = {
-        init : function(){
-            console.log('box.init()');
-
-            return this;
-        },
-
-        add : function(str){
-            alert("add", str);
-
-            return this;
-        },
-
-        remove : function(str){
-            alert("remove", str);
-
-            return this;
-        }
-    };
-    
-    box.fn.init.prototype = box.fn;
-    
-    window.box =box;
-})();
-
-var testBox = box();
-testBox.add("jQuery").remove("jQuery");
-```
-
-### Images
-
-Image:
-
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
-
-### Lists
-
-#### Unordered list (-)
 
 * Item A
 * Item B
@@ -154,21 +79,6 @@ Image:
 ***
 
 ### Tables
-
-| First Header | Second Header |
-| ------------ | ------------- |
-| Content Cell | Content Cell  |
-| Content Cell | Content Cell  |
-
-| First Header | Second Header |
-| ------------ | ------------- |
-| Content Cell | Content Cell  |
-| Content Cell | Content Cell  |
-
-| Function name | Description                |
-| ------------- | -------------------------- |
-| `help()`      | Display the help window.   |
-| `destroy()`   | **Destroy your computer!** |
 
 | Item     | Value |
 | -------- | ----: |

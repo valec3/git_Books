@@ -5,3 +5,5 @@
 * [Python](python.md)
 * [Programacion Numerica](programacion-numerica.md)
 * [HTML](html.md)
+* [JavaScript](javascript.md)
+* [CSS](css.md)
