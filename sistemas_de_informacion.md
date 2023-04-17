@@ -41,6 +41,98 @@ Existen varios tipos de sistemas de información, cada uno con un propósito y u
 
 ***
 
+SEMANA 3\
+\------------------------------------------------------
+
+
+
+### Ingeniería de Requisitos
+
+La Ingeniería de Requisitos es una disciplina que se encarga de identificar, documentar, validar y mantener los requisitos de un sistema de software. Es una etapa crucial en el desarrollo de un proyecto de software, ya que permite definir las funcionalidades que debe tener el sistema y cómo éste debe comportarse en distintos escenarios.
+
+Técnicas de obtención de requisitos
+
+Existen diversas técnicas para obtener los requisitos del sistema de software, algunas de las más comunes son:
+
+1. Entrevistas: se realizan entrevistas con los stakeholders del proyecto para obtener información sobre las necesidades del sistema.
+2. Observación: se observa el comportamiento de los usuarios y los procesos actuales para entender cómo se realiza el trabajo actualmente y cómo se podría mejorar.
+3. Cuestionarios: se envían cuestionarios a los usuarios para obtener información sobre sus necesidades y opiniones.
+4. Brainstorming: se realiza una sesión de lluvia de ideas con el equipo de desarrollo para generar ideas sobre cómo debe ser el sistema.
+5. Prototipado: se desarrollan prototipos del sistema para que los usuarios puedan experimentar con él y proporcionar comentarios.
+
+### Análisis de requisitos
+
+El análisis de requisitos implica la identificación y documentación de los requisitos del sistema de software. Se pueden utilizar herramientas como casos de uso, diagramas de flujo de datos, modelos de datos y diagramas de secuencia para comprender mejor los requisitos y cómo se relacionan entre sí.
+
+### Especificación de requisitos
+
+La especificación de requisitos consiste en documentar los requisitos en un formato claro y conciso que pueda ser comprendido por el equipo de desarrollo, los stakeholders y cualquier persona interesada en el proyecto. Las especificaciones de requisitos suelen incluir información como los requisitos funcionales y no funcionales, los casos de uso, las restricciones del sistema, los objetivos del proyecto y los criterios de aceptación.
+
+### SEMANA 4
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+### Modelado de procesos de negocios IDEF0:
+
+* IDEF0 (Integration Definition for Function Modeling) es una técnica de modelado de procesos que se utiliza para visualizar y describir la forma en que las funciones de un sistema se relacionan entre sí.
+* IDEF0 es especialmente útil para la planificación y el diseño de sistemas complejos, ya que permite a los ingenieros y analistas de sistemas entender la estructura y el comportamiento de los procesos empresariales.
+* En un diagrama IDEF0, se utilizan cajas para representar las funciones del sistema y las entradas y salidas que están asociadas a cada función.
+* Las funciones se conectan con flechas para mostrar la secuencia y el flujo de información entre las mismas.
+
+### Modelado funcional DFD:
+
+* DFD (Diagrama de Flujo de Datos) es una técnica de modelado de procesos que se utiliza para visualizar el flujo de información en un sistema.
+* En un diagrama DFD, los procesos del sistema se representan mediante círculos o rectángulos, mientras que las entradas y salidas se representan mediante flechas.
+* Los diagramas DFD se utilizan para entender el comportamiento de los procesos empresariales y para identificar oportunidades de mejora en el diseño del sistema.
+* Los diagramas DFD se pueden utilizar para modelar cualquier tipo de sistema, desde sistemas simples hasta sistemas complejos.
+
+### Modelado de datos DER:
+
+* DER (Diagrama de Entidad-Relación) es una técnica de modelado de datos que se utiliza para visualizar la estructura de una base de datos.
+* En un diagrama DER, las entidades se representan mediante rectángulos, mientras que las relaciones entre las entidades se representan mediante líneas.
+* Los diagramas DER se utilizan para entender la estructura de una base de datos y para identificar las relaciones entre las diferentes tablas de la base de datos.
+* Los diagramas DER se utilizan para el diseño de bases de datos y para la planificación de sistemas empresariales.
+
+### SEMANA 5
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+### ASML
+
+ASML (Analysis Specification and Modeling Language) es una técnica de análisis de sistemas de información (SI) bajo un enfoque estructurado. Esta técnica se enfoca en la especificación de requerimientos y el análisis de los procesos de negocio en una organización.
+
+ASML es un lenguaje gráfico que permite representar los diferentes componentes del sistema de información y sus relaciones. Se utiliza para modelar tanto los procesos de negocio como los procesos de datos.
+
+El análisis de SI bajo enfoque estructurado ASML consta de tres fases principales:
+
+1. Análisis de requerimientos: esta fase se enfoca en la obtención y especificación de los requerimientos del sistema. Los requerimientos se describen en términos de procesos de negocio y datos. En esta fase se utiliza el lenguaje ASML para representar los procesos y los datos del sistema.
+2. Análisis de procesos de negocio: en esta fase se analizan los procesos de negocio de la organización. Se utilizan técnicas como el diagrama de flujo de datos (DFD) y el diagrama de flujo de proceso (PFD) para modelar los procesos de negocio. ASML se utiliza para representar los procesos de negocio en términos de sus entradas, salidas, controles y transformaciones.
+3. Análisis de procesos de datos: esta fase se enfoca en el análisis de los procesos de datos del sistema. Se utiliza el modelo Entidad-Relación (ER) para modelar los datos y las relaciones entre ellos. ASML se utiliza para modelar los procesos de datos en términos de las entidades y las relaciones.
+
+ASML es una técnica muy útil para el análisis de SI bajo un enfoque estructurado. Permite especificar de manera clara y concisa los requerimientos y los procesos del sistema. Además, al utilizar un lenguaje gráfico, es fácil de entender y de comunicar a los diferentes interesados en el proyecto.
+
+### SEMANA 6
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+### SEMANA 7
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+### SEMANA 8
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+### SEMANA 9
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+### SEMANA 6
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
 #### Producto
 
 | Clase     | entidad   |
