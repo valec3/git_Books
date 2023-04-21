@@ -7,3 +7,4 @@
 * [HTML](html.md)
 * [JavaScript](javascript.md)
 * [CSS](css.md)
+* [MySQL](mysql.md)
