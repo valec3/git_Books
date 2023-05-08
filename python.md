@@ -49,11 +49,117 @@ Cada cláusula tiene un encabezado comenzando con una palabra clave y terminando
 
 ### Tipos de datos
 
-###
+Los valores de datos en Python se conocen como _objetos_
 
 ### Numeros
 
+Los tipos numéricos integrados en Python incluyen enteros, números de coma flotante y números complejos.
+
+```python
+1, 23, 3493                    # Decimal integer literals
+0b010101, 0b110010, 0B01       # Binary integer literals
+0o1, 0o27, 0o6645, 0O777       # Octal integer literals
+0x1, 0x17, 0xDA5, 0xda5, 0Xff  # Hexadecimal integer literals
+```
+
+```
+0., 0.0, .0, 1., 1.0, 1e0, 1.e0, 1.0E0  # Floating-point literals
+```
+
+Un valor de punto flotante de Python corresponde a una C doble y comparte sus límites de rango y precisión: típicamente 53 bits — aproximadamente 15 dígitos — de precisión en plataformas modernas.
+
+```
+>>> f=2.5
+>>> f.as_integer_ratio()
+```
+
+<pre><code><strong>( 5, 2 )
+</strong></code></pre>
+
+#### Underscores en literales numéricos
+
+```
+>>> 100_000.000_0001, 0x_FF_FF, 0o7_777, 0b_1010_1010
+```
+
+<pre><code><strong>( 100000.000001, 65535, 4095, 170 )
+</strong></code></pre>
+
 ### Secuencias
+
+Una _secuencia_ es un contenedor ordenado de artículos, indexado por enteros. Python tiene tipos de secuencia integrados conocidos como cadenas (bytes o str), tuplas y listas.&#x20;
+
+#### Strings
+
+Python tiene dos tipos de cadenas incorporados, str y bytes. El objeto str es una secuencia de caracteres utilizados para almacenar y representar información basada en texto. El objeto bytes almacena y representa secuencias arbitrarias de bytes binarios. Las cadenas de ambos tipos en Python son _inmutable_
+
+```python
+'This is a literal string'
+"This is another string"
+```
+
+```python
+the_text = """\
+First line
+Second line
+"""      # The same as "First line\nSecond line\n" but more readable
+```
+
+Múltiples literales de cadena de cualquier tipo — cotizados, comillas triples, sin procesar, bytes, formateados — pueden ser adyacentes, con espacios en blanco opcionales entre ( siempre que no mezcle cadenas que contengan texto y bytes ).
+
+```python
+marypop = ('supercali'       # '(' begins logical line,
+           'fragilistic'     # indentation is ignored
+           'expialidocious') # until closing ')'
+```
+
+La cadena asignada a marypop es una sola palabra de 34 caracteres.
+
+**Objetos bytes**
+
+Un objeto byte es una secuencia ordenada de ints de 0 a 255. bytes los objetos generalmente se encuentran al leer datos o escribir datos en una fuente binaria (, por ejemplo, un archivo, un socket o un recurso de red ).
+
+Un objeto byte puede ser inicializado  desde una lista de enteros o desde una cadena de caracteres
+
+```python
+b'abc'
+bytes([97, 98, 99])           # Same as the previous line
+rb'\ = solidus'               # A raw bytes literal, containing a '\'
+```
+
+#### _<mark style="color:red;">objetos bytearray</mark>_
+
+Un Bytearray es un secuencia mutable ordenada de ints de 0 a 255; como un bytes objeto, puedes construirlo a partir de una secuencia de ints o caracteres.
+
+```python
+ba = bytearray([97, 98, 99])  # Like bytes, can take a sequence of ints
+ba[1] = 97                    # Unlike bytes, contents can be modified
+print(ba.decode())            # Prints 'aac'
+```
+
+### Tuplas
+
+_Una tupla_ es una secuencia ordenada inmutable de elementos. Los elementos de una tupla son objetos arbitrarios y pueden ser de diferentes tipos. Puede usar objetos mutables ( como listas ) como elementos de tupla, pero la mejor práctica es generalmente evitar hacerlo.
+
+Para denotar una tupla, use una serie de expresiones ( los elementos de la tupla ) separados por comas (,); si cada elemento es literal, toda la construcción es un _tuple literal_. Opcionalmente, puede colocar una coma redundante después del último elemento. Puede agrupar elementos de tupla entre paréntesis, pero los paréntesis son necesarios solo cuando las comas tendrían otro significado
+
+```python
+100, 200, 300        # Tuple with three items
+(3.14,)              # Tuple with one item, needs trailing comma
+()                   # Empty tuple (parentheses NOT optional)
+```
+
+También puede llamar al tipo incorporado tupla para crear una tupla. Por ejemplo:
+
+```python
+tuple('wow')
+```
+
+Esto construye una tupla igual a la indicada por el literal de la tupla:
+
+```python
+('w', 'o', 'w')
+```
 
 ### Sets&#x20;
 
