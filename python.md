@@ -53,6 +53,8 @@ Los valores de datos en Python se conocen como _objetos_
 
 ### Numeros
 
+Todos los números en Python son objetos inmutables; por lo tanto, cuando realiza una operación en un objeto numérico, produce un nuevo objeto numérico.
+
 Los tipos numéricos integrados en Python incluyen enteros, números de coma flotante y números complejos.
 
 ```python

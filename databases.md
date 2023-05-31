@@ -47,7 +47,7 @@ Debido a que eventualmente vamos a crear una base de datos relacional, los atrib
 
 _**¿Cuál es el problema con los atributos multivalorados? Los atributos multivalorados pueden causar problemas con el significado de los datos en la base de datos, ralentizar significativamente la búsqueda y establecer restricciones innecesarias sobre la cantidad de datos que se pueden almacenar.**_
 
-~~<mark style="color:red;">**Al buscar un atributo multivalor, un DBMS debe buscar cada valor en el atributo, probablemente escaneando el contenido del atributo secuencialmente. Una búsqueda secuencial es el tipo de búsqueda más lento disponible.**</mark>~~
+<mark style="color:red;">**Al buscar un atributo multivalor, un DBMS debe buscar cada valor en el atributo, probablemente escaneando el contenido del atributo secuencialmente. Una búsqueda secuencial es el tipo de búsqueda más lento disponible.**</mark>
 
 Como regla general, si se encuentra con un atributo multivalor, esta es una pista importante de que necesita otra entidad. <mark style="color:green;">La única forma de manejar múltiples valores del mismo atributo es crear una entidad de la cual pueda almacenar múltiples instancias</mark>, una para cada valor del atributo
 
@@ -89,11 +89,21 @@ Si tenemos instancias de dos entidades ( A y B ), entonces existe una relación 
 
 #### Relacion de muchos a muchos
 
-![](https://learning.oreilly.com/library/view/relational-database-design/9780128499023/B9780128043998000041/B9780128043998000041.xhtml#f0010)
+#### El método Chen <a href="#st0100" id="st0100"></a>
 
-### ​ <a href="#undefined" id="undefined"></a>
+<figure><img src=".gitbook/assets/f04-09-9780128043998.jpg" alt=""><figcaption></figcaption></figure>
 
-### ​ <a href="#undefined-1" id="undefined-1"></a>
+Hay una limitación importante en el método Chen para dibujar diagramas ER: no hay una forma obvia de indicar entidades débiles y relaciones obligatorias.
+
+#### Diagramas de estilo IE <a href="#st0105" id="st0105"></a>
+
+<figure><img src=".gitbook/assets/f04-10-9780128043998.jpg" alt=""><figcaption></figcaption></figure>
+
+​Esta es la misma relación de uno a muchos que hemos estado usando para demostrar los diagramas de ER del método Chen. Sin embargo, en este caso, los extremos de las líneas ( algunas de las cuales se parecen un poco a “ patas de gallo ” ) indican qué relaciones son obligatorias.
+
+La doble línea debajo de la entidad del cliente significa que cada pedido está relacionado con un solo cliente. Como cero no es una opción, la relación es obligatoria. En contraste, el pie 0 y el cuervo conectados a la entidad de pedido significa que un cliente puede tener cero, uno o más pedidos. Hay cuatro símbolos utilizados en los extremos de las líneas en un diagrama IE: ▪ | |: Una y una sola relación obligatoria ( ) ▪ 0 |: cero o uno ▪ > 1: Una o más ( relación obligatoria ) ▪ > 0: cero, uno o más
+
+<figure><img src=".gitbook/assets/ERD-Notation.png" alt=""><figcaption><p>Simbolos y notacion</p></figcaption></figure>
 
 ### identificadores de identidad <a href="#identificadores-de-identidad" id="identificadores-de-identidad"></a>
 
