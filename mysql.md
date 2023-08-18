@@ -20,7 +20,7 @@ Finalmente, mapeamos el diseño de la base de datos en un sistema de gestión de
 
 Una persona puede tener varias tarjetas de crédito, pero cada tarjeta de crédito pertenece a una sola persona. Mirándolo de otra manera, un _uno a muchos_ la relación se convierte en un _muchos a uno_ relación; por ejemplo, muchas tarjetas de crédito pertenecen a una sola persona.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Modelo Entidad Relación(ER)
 

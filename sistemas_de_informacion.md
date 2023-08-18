@@ -28,7 +28,7 @@ Existen varios tipos de sistemas de información, cada uno con un propósito y u
 * **Enfoques de calidad en sistemas de información:** existen diferentes enfoques de calidad para los sistemas de información, como el enfoque de calidad total, el enfoque de mejora continua y el enfoque de gestión de la calidad del software. Estos enfoques se centran en garantizar que el sistema de información cumpla con los requisitos y expectativas del usuario y que sea confiable, seguro y fácil de usar.
 * **Herramientas para el desarrollo de sistemas de información:** existen muchas herramientas de software disponibles para ayudar en el desarrollo de sistemas de información, como herramientas de modelado de procesos, herramientas de gestión de proyectos, herramientas de pruebas y herramientas de desarrollo de software. Es importante elegir las herramientas adecuadas para el proyecto y asegurarse de que estén bien integradas en el proceso de desarrollo.
 
-***
+
 
 ### Analisis y diseño de sistemas orientado a objetos
 
@@ -39,7 +39,7 @@ Existen varios tipos de sistemas de información, cada uno con un propósito y u
 * Proyecto
 * Persona
 
-***
+
 
 SEMANA 3\
 \------------------------------------------------------
@@ -148,7 +148,7 @@ ASML es una técnica muy útil para el análisis de SI bajo un enfoque estructur
 * Proyecto
 * Persona
 
-***
+
 
 ### Producto
 
